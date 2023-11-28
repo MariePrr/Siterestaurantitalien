@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #731413; /* Rouge foncé */
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #124716; /* vert */
+    padding: 10px;
+    text-align: right;
+    font-family: font-family: 'Comfortaa', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: right;
+    color: white; /* blanc */
+    font-family: font-family: 'Comfortaa', sans-serif;
+
+    
+}
+
+section {
+    padding: 20px;
+}
+
+
+
+/* Ajoutez ces styles pour la galerie */
+.galerie {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px; /* Espacement entre les images */
+    margin-left: 30px;
+}
+
+
+.galerie img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* Pour conserver les proportions tout en couvrant complètement le conteneur */
+    border-radius: 8px; /* Coins arrondis pour les images */
+}
+
